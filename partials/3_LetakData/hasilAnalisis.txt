@@ -10,7 +10,7 @@ Q3=4.0
 Deciles [Belajar]:
 2.0, 3.0, 3.0, 3.0, 4.0, 4.0, 4.0, 4.0, 5.0
 
-Percentiles (Apakah kamu memanfaatkan Wifi kampus untuk menunjang kegiatan akademik [Mengerjakan tugas]):
+Percentiles [Mengerjakan Tugas]:
 P8: 2.0
 P33: 3.0
 P64: 4.0

@@ -22,7 +22,7 @@ def percentiles(data, column_name, mapping):
     selected_indices = [8, 33, 64, 82, 99]
     selected_percentiles = {index: numeric_data.quantile(index / 100) for index in selected_indices}
     
-    result = f"Percentiles ({column_name}):\n"
+    result = f"Percentiles [Mengerjakan Tugas]:\n"
     for index, value in selected_percentiles.items():
         result += f"P{index}: {value}\n"
     
