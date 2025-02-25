@@ -3,11 +3,16 @@ Pertanyaan: Apakah kamu memanfaatkan Wifi kampus untuk menunjang kegiatan akadem
 
 
 Quartiles [Kelas Online]:
-Q1=2.0, Q2=3.0, Q3=4.0
+Q1=2.0,
+Q2=3.0,
+Q3=4.0
 
 Deciles [Belajar]:
 2.0, 3.0, 3.0, 3.0, 4.0, 4.0, 4.0, 4.0, 5.0
 
-Percentiles [Mengerjakan Tugas]:
-1.5899999999999999, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0...
-
+Percentiles (Apakah kamu memanfaatkan Wifi kampus untuk menunjang kegiatan akademik [Mengerjakan tugas]):
+P8: 2.0
+P33: 3.0
+P64: 4.0
+P82: 4.0
+P99: 5.0

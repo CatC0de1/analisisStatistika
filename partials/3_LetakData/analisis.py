@@ -10,7 +10,7 @@ def quartiles(data, column_name, mapping):
     q1 = numeric_data.quantile(0.25)
     q2 = numeric_data.quantile(0.50)
     q3 = numeric_data.quantile(0.75)
-    return f"Quartiles [Kelas Online]:\nQ1={q1}, Q2={q2}, Q3={q3}\n\n"
+    return f"Quartiles [Kelas Online]:\nQ1={q1},\nQ2={q2},\nQ3={q3}\n\n"
 
 def deciles(data, column_name, mapping):
     numeric_data = data[column_name].map(mapping)
@@ -19,9 +19,14 @@ def deciles(data, column_name, mapping):
 
 def percentiles(data, column_name, mapping):
     numeric_data = data[column_name].map(mapping)
-    percentiles = [numeric_data.quantile(i / 100) for i in range(1, 100)]
-    return f"Percentiles [Mengerjakan Tugas]:\n{', '.join(map(str, percentiles[:10]))}...\n\n"
-
+    selected_indices = [8, 33, 64, 82, 99]
+    selected_percentiles = {index: numeric_data.quantile(index / 100) for index in selected_indices}
+    
+    result = f"Percentiles ({column_name}):\n"
+    for index, value in selected_percentiles.items():
+        result += f"P{index}: {value}\n"
+    
+    return result
 
 def data_location(data):
     q6q8_mapping = {"Tidak Pernah":1, "Jarang":2, "Terkadang":3, "Sering":4, "Selalu":5}

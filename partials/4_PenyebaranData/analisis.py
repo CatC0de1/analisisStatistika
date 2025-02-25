@@ -25,7 +25,7 @@ def ordinal_dispersion_index(data, column_name, mapping):
     dispersion_index = (mean_val - min_val) / (max_val - min_val)
     return f"Ordinal Dispersion Index [Mengerjakan Tugas]:\n{dispersion_index:.2f}\n\n"
 
-def data_location(data):
+def data_dissemination(data):
     q9q11_mapping = {"Sangat Tidak Setuju":1, "Tidak Setuju":2, "Netral":3, "Setuju":4, "Sangat Setuju":5}
     result = ""
     result += range_value(data, data.columns[8], q9q11_mapping)
@@ -40,7 +40,7 @@ def main():
     with open("partials/4_PenyebaranData/hasilAnalisis.txt", "w") as f:
         f.write("Penyebaran Data:\n")
         f.write("Pertanyaan: Dengan Wifi yang mendukung, apakah kamu lebih termotivasi dalam mengikuti kegiatan akademik\n\n\n")
-        f.write(data_location(df))
+        f.write(data_dissemination(df))
     
     print("Hasil telah disimpan di hasilAnalisis.txt")
     
