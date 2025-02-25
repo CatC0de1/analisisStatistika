@@ -1,0 +1,13 @@
+Penyebaran Data:
+Pertanyaan: Dengan Wifi yang mendukung, apakah kamu lebih termotivasi dalam mengikuti kegiatan akademik
+
+
+Range [Kelas Online]:
+4
+
+Interquartile Range [Belajar]:
+2.0
+
+Ordinal Dispersion Index [Mengerjakan Tugas]:
+0.76
+

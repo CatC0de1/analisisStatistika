@@ -1,0 +1,6 @@
+Ukuran Pemusatan Data:
+Pertanyaan: Bagaimana kualitas Wifi Kampus dalam menunjang kegiatan akademik
+
+Mean [Kecepatan]: 2.93
+Median [Kestabilan]: 2.0
+Mode [Aksesibilitas]: 3
